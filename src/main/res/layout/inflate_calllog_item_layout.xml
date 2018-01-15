@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:id="@+id/frame_calllog"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/imageView_Calllog_Photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageView_Calllog_Warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/ic_warning" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textView_Calllog_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_toRightOf="@+id/frame_calllog" />
+
+    <ImageView
+        android:id="@+id/imageView_Calllog_outgoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/frame_calllog"
+        android:paddingLeft="5dp"
+        android:src="@drawable/ic_outgoing_call" />
+
+    <TextView
+        android:id="@+id/textView_Calllog_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人电话"
+        android:paddingLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView_Calllog_outgoing" />
+
+    <TextView
+        android:id="@+id/textView_Calllog_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通话时间"
+        android:paddingRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

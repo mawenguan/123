@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.day3_1_youlou.fragment.SmsFragment">
+
+    <include
+        android:id="@+id/actionbar_Conversation"
+        layout="@layout/include_actionbar_layout">
+    </include>
+
+    <ListView
+        android:id="@+id/listView_Conversation"
+        style="@style/list_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

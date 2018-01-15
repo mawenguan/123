@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:id="@+id/frame_Conversation"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/imageView_Conversation_Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageView_Conversation_Warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/ic_warning" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textView_Conversation_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人姓名"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_toRightOf="@+id/frame_Conversation" />
+
+    <ImageView
+        android:id="@+id/imageView_Conversation_Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/frame_Conversation"
+        android:paddingLeft="5dp"
+        android:src="@drawable/ic_unread" />
+
+    <TextView
+        android:id="@+id/textView_Conversation_Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会话内容"
+        android:paddingLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView_Conversation_Read" />
+
+    <TextView
+        android:id="@+id/textView_Conversation_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会话时间"
+        android:paddingRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

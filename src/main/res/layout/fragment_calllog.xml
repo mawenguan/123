@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.day3_1_youlou.fragment.CalllogFragment">
+
+   <include
+       android:id="@+id/actionbar_Calllog"
+       layout="@layout/include_actionbar_layout">
+   </include>
+
+    <ListView
+        android:id="@+id/listView_Calllog"
+        style="@style/list_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

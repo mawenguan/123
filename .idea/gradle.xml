@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../day19_mplayer_01" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../day3_2_localservice" />
+            <option value="$PROJECT_DIR$/../day3_3_remoteservice" />
+            <option value="$PROJECT_DIR$/../day3_3_studentclient" />
+            <option value="$PROJECT_DIR$/../day3_4_mynetprogeam" />
+            <option value="$PROJECT_DIR$/../day3_5_employeemanagerment" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

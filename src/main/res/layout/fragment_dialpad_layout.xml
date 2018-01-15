@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/actionbar_Dialpad"
+        layout="@layout/include_actionbar_layout">
+    </include>
+
+    <ListView
+        android:id="@+id/listView_Dialpad"
+        style="@style/list_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionbar_Dialpad">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_Dialpad"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dialpad_bg">
+
+        <ImageButton
+            android:id="@+id/imageButton_Call"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_call" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

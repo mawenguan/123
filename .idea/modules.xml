@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GSD1708.iml" filepath="$PROJECT_DIR$/../GSD1708.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day19_mplayer_01/day19_mplayer_01.iml" filepath="$PROJECT_DIR$/../day19_mplayer_01/day19_mplayer_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day3_1_youlou.iml" filepath="$PROJECT_DIR$/day3_1_youlou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day3_2_localservice/day3_2_localservice.iml" filepath="$PROJECT_DIR$/../day3_2_localservice/day3_2_localservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day3_3_remoteservice/day3_3_remoteservice.iml" filepath="$PROJECT_DIR$/../day3_3_remoteservice/day3_3_remoteservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day3_3_studentclient/day3_3_studentclient.iml" filepath="$PROJECT_DIR$/../day3_3_studentclient/day3_3_studentclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day3_4_mynetprogeam/day3_4_mynetprogeam.iml" filepath="$PROJECT_DIR$/../day3_4_mynetprogeam/day3_4_mynetprogeam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day3_5_employeemanagerment/day3_5_employeemanagerment.iml" filepath="$PROJECT_DIR$/../day3_5_employeemanagerment/day3_5_employeemanagerment.iml" />
+    </modules>
+  </component>
+</project>
